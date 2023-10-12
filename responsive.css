@@ -1,0 +1,39 @@
+@media  screen and (min-width:320px) and (max-width:568px) {
+    nav ul{
+        display: none;
+    }
+    .header{
+        height: 70vh;
+    }
+    .project div{
+        width: 100%;
+    }
+    .h-20{
+        height: auto;
+    }
+    .team{
+        flex-direction: column;
+    }
+    .team .card{
+        width: 100%;
+    }
+    .contact +div{
+        height: 50vh;
+    }
+}
+
+@media  screen and (min-width:568px) and (max-width:768px) {
+   
+    .project div{
+        width: 47%;
+
+    }
+    .project h1{
+        width: 60%;
+    padding: 15px 8px;
+
+    }
+    .team .card{
+        width: 49%;
+    }
+}
